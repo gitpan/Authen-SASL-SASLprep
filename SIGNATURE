@@ -1,0 +1,34 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fad308ddd802d90ccf667e6705e4931a8c0f9bce Changes
+SHA1 f235ba4160673bcb7c9d58c2f09dbc7fc0efadea LICENSE
+SHA1 521c19fd75740776c29f7c0dc3d12693293cdc34 MANIFEST
+SHA1 fe7d1b02b8b5c46a532cac9e8d64aaaa0a9c6c32 META.yml
+SHA1 d4a7502b94c5480e17cd318ff4e00388eee88fa0 Makefile.PL
+SHA1 f74a392a0fc213d4f987dced0a479fd1fc39318b README
+SHA1 b4c46ad6415cd0142ba47c2fde70be1e7f6ecc35 lib/Authen/SASL/SASLprep.pm
+SHA1 259295feb47ff72aa6fde27849090d7baa1b15af t/00use.t
+SHA1 a6de7706be1c31755468e88258fba136529ad927 t/10pod.t
+SHA1 8de8bac9a07d65016563cac32e45d271bd86c577 t/11pod_cover.t
+SHA1 2a7a71136a939a1c7c72167c3573487e35ad76af t/saslprep.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (Darwin)
+
+iEYEARECAAYFAkshjdsACgkQSKUOY2OWgPDeSACgglzQP0fepAOwn7rkpflnwmZx
+yrEAoIKmU8u1sVSiwNp7r4RR9LJggxx4
+=kgn6
+-----END PGP SIGNATURE-----
