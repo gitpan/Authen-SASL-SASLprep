@@ -1,4 +1,4 @@
-# $Id: saslprep.t 87 2009-12-10 23:54:58Z cfaerber $
+# $Id$
 
 use strict;
 use utf8;

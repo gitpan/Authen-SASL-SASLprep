@@ -1,6 +1,8 @@
 Revision history for Perl extension Authen::SASL::SASLprep
 
+1.01 Tue Dec 14 00:00:00 2009
+	- switch to Module::Build
+	- fixes FAILures during make test
+
 1.00 Fri Dec 11 00:00:00 2009
 	- initial version, based on Net::IDN::Encode
-
-$Id: Changes 87 2009-12-10 23:54:58Z cfaerber $
